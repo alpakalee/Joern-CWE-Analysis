@@ -57,10 +57,6 @@ export PATH=$PATH:$(pwd)/joern-cli
    joern> runScript("queries/CWE-476/query.sc")
    ```
 ---
-
-이제 `importCode`를 사용하도록 변경되었어.  
-추가적으로 수정할 부분이 있으면 알려줘! 😊
-
 ## 🛠 기여 방법
 새로운 CWE 취약점을 추가하거나 Joern 쿼리를 개선하고 싶다면 다음 가이드라인을 따라 주세요.
 
