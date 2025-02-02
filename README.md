@@ -29,8 +29,6 @@ Joern 쿼리를 통해 다양한 CWE 취약점을 자동으로 탐지할 수 있
 ├── README.md            # 프로젝트 개요 및 사용법
 ```
 
----
-
 ## 🚀 사용 방법
 ### 1️⃣ Joern 설치  
 이 프로젝트는 [Joern](https://joern.io/)을 기반으로 동작합니다. Joern을 다운로드하고 설치해주세요.
@@ -42,21 +40,26 @@ export PATH=$PATH:$(pwd)/joern-cli
 ```
 
 ### 2️⃣ CWE 탐지 실행
-CWE별 Joern 쿼리를 실행하고 취약점을 탐지할 수 있습니다.
-```bash
-cd queries/
-joern --script CWE-476/query.sc
-```
-모든 CWE에 대한 탐지를 실행하려면:
-```bash
-bash queries/run_all.sh
-```
-
-### 3️⃣ 탐지 결과 확인
-쿼리 실행 후 결과는 `results/` 디렉토리에 JSON 형식으로 저장됩니다.  
-Markdown 리포트는 `results/report.md`에서 확인할 수 있습니다.
-
+1. **Joern 실행**
+   ```bash
+   joern
+   ```
+   
+2. **SARD-CWE 폴더 내 특정 CWE 코드 로드**  
+   예를 들어, CWE-476을 분석하려면 다음 명령어를 실행합니다.
+   ```scala
+   importCode("SARD-CWE/CWE-476")
+   ```
+   
+3. **쿼리 실행**  
+   CWE-476에 대한 Joern 쿼리를 실행하려면:
+   ```scala
+   joern> runScript("queries/CWE-476/query.sc")
+   ```
 ---
+
+이제 `importCode`를 사용하도록 변경되었어.  
+추가적으로 수정할 부분이 있으면 알려줘! 😊
 
 ## 🛠 기여 방법
 새로운 CWE 취약점을 추가하거나 Joern 쿼리를 개선하고 싶다면 다음 가이드라인을 따라 주세요.
