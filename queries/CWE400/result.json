@@ -1,0 +1,35 @@
+{
+    "results": [
+      {
+        "argumentIndex": -1,
+        "argumentName": null,
+        "code": "for (i = 0; i < (size_t)count; i++)",
+        "columnNumber": 9,
+        "controlStructureType": "FOR",
+        "lineNumber": 41,
+        "order": 9,
+        "parserTypeName": "CASTForStatement"
+      },
+      {
+        "argumentIndex": -1,
+        "argumentName": null,
+        "code": "for (i = 0; i < (size_t)count; i++)",
+        "columnNumber": 9,
+        "controlStructureType": "FOR",
+        "lineNumber": 77,
+        "order": 9,
+        "parserTypeName": "CASTForStatement"
+      },
+      {
+        "argumentIndex": -1,
+        "argumentName": null,
+        "code": "for (i = 0; i < (size_t)count; i++)",
+        "columnNumber": 13,
+        "controlStructureType": "FOR",
+        "lineNumber": 100,
+        "order": 3,
+        "parserTypeName": "CASTForStatement"
+      }
+    ]
+  }
+  

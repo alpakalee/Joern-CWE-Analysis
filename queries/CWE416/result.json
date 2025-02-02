@@ -1,0 +1,18 @@
+{
+    "results": [
+      {
+        "argumentIndex": 1,
+        "argumentName": null,
+        "code": "data",
+        "columnNumber": 19,
+        "dynamicTypeHintFullName": [],
+        "lineNumber": 41,
+        "name": "data",
+        "order": 1,
+        "possibleTypes": ["long*"],
+        "typeFullName": "long*",
+        "source": "printLongLine(data[0]);"
+      }
+    ]
+  }
+  

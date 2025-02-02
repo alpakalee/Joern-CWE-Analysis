@@ -1,0 +1,20 @@
+{
+    "results": [
+      {
+        "argumentIndex": 2,
+        "argumentName": null,
+        "code": "data * data",
+        "columnNumber": 20,
+        "dispatchType": "STATIC_DISPATCH",
+        "dynamicTypeHintFullName": [],
+        "lineNumber": 40,
+        "methodFullName": "operator.*.multiplication",
+        "name": "operator.*.multiplication",
+        "order": 2,
+        "possibleTypes": ["ANY"],
+        "typeFullName": "ANY",
+        "source": "short result = data * data;"
+      }
+    ]
+  }
+  

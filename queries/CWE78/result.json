@@ -1,0 +1,19 @@
+{
+    "results": [
+      {
+        "argumentIndex": -1,
+        "argumentName": null,
+        "code": "execl(L\"/bin/sh\", L\"/bin/sh\", L\"-c\", data, NULL)",
+        "columnNumber": 5,
+        "dispatchType": "STATIC_DISPATCH",
+        "dynamicTypeHintFullName": [],
+        "lineNumber": 77,
+        "methodFullName": "execl",
+        "name": "execl",
+        "order": 7,
+        "possibleTypes": ["ANY"],
+        "typeFullName": "ANY"
+      }
+    ]
+  }
+  

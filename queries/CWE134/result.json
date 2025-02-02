@@ -1,0 +1,35 @@
+{
+    "results": [
+      {
+        "argumentIndex": -1,
+        "argumentName": null,
+        "code": "wprintf(data);",
+        "columnNumber": 5,
+        "dispatchType": "STATIC_DISPATCH",
+        "dynamicTypeHintFullName": [],
+        "lineNumber": 36,
+        "methodFullName": "wprintf",
+        "name": "wprintf",
+        "order": 3,
+        "possibleTypes": ["ANY"],
+        "typeFullName": "ANY",
+        "source": "63b_badSink"
+      },
+      {
+        "argumentIndex": -1,
+        "argumentName": null,
+        "code": "wprintf(data);",
+        "columnNumber": 5,
+        "dispatchType": "STATIC_DISPATCH",
+        "dynamicTypeHintFullName": [],
+        "lineNumber": 48,
+        "methodFullName": "wprintf",
+        "name": "wprintf",
+        "order": 3,
+        "possibleTypes": ["ANY"],
+        "typeFullName": "ANY",
+        "source": "63b_goodG2BSink"
+      }
+    ]
+  }
+  
